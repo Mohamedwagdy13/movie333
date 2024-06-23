@@ -1,0 +1,46 @@
+nav{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgba(255, 0, 0, 0.5);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    gap: 7rem;
+}
+.user{
+    margin-left: 23rem;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 1rem;
+}
+.header {text-align: center;
+    background-color: #262626;
+font-style: italic;
+width: 95%;
+margin: auto;
+margin-top: 10px;}
+.header:hover{
+-webkit-animation-name: shadow;
+        animation-name: shadow;
+-webkit-animation-duration: 1s;
+        animation-duration: 1s;
+-webkit-animation-direction: alternate;
+        animation-direction: alternate;
+-webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+}
+@-webkit-keyframes shadow{
+    from{text-shadow: 1px 2px rgba(255, 0, 0, 0.5) , 2cm 1px rgba(255, 0, 0, 0.5);}
+}
+@keyframes shadow{
+    from{text-shadow: 1px 1px rgba(255, 0, 0, 0.5) , 2px 1px rgba(255, 0, 0, 0.5);}
+}

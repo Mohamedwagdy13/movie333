@@ -22,7 +22,7 @@ const Home = () => {
         <h2 className="text-center text-light mb-4">Movie trends</h2>
 
         {popularMovies.map(movie => (
-          <div className="col-md-4 mb-4" key={movie.id}>
+          <div className="col-md-4 mb-4 bg-dark" key={movie.id}>
             <div className="hov p-1">
               <div className="card bg-dark">
                 <img 

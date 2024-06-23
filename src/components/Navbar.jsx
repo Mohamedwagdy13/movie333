@@ -4,7 +4,7 @@ import '../css/Navbar.css';
 
 function Navbar() {
   return (
-    <div className='navbar m-auto'>
+    <div className='navbar m-auto p-1 ms-1'>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark w-100">
         <Link className="navbar-brand text-danger" to="/">Movie App</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

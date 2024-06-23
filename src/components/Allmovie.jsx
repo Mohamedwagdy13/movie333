@@ -26,7 +26,7 @@ function MovieApp() {
     };
 
     return (
-        <div style={{ backgroundColor: '#rgba(0, 0, 0, 0.85)', minHeight: '100vh', padding: '20px', color: 'white' }}>
+        <div className='bg-dark' style={{ backgroundColor: '#rgba(0, 0, 0, 0.85)', minHeight: '100vh', padding: '20px', color: 'white' }}>
             <div>
                 <label style={{ color: 'white' }}>Enter Page Number: </label>
                 <input type="number" min="1" onChange={handlePageChange} value={page} />
